@@ -1,48 +1,8 @@
-import { BiSolidDashboard } from "react-icons/bi";
-import { LuArrowDownUp } from "react-icons/lu";
-import { FaCalendarAlt } from "react-icons/fa";
-import { FaArrowTrendUp } from "react-icons/fa6";
-import { AiOutlineMessage } from "react-icons/ai";
+import { genralOptions } from "../constants";
+import { toolsOptions } from "../constants";
+import { others } from "../constants";
 
 export default function SideBar() {
-  const genralOptions = [
-    {
-      text: "Dashboard",
-      icon: <BiSolidDashboard />,
-    },
-    {
-      text: "History",
-      icon: <LuArrowDownUp />,
-    },
-
-    { text: "Calender", icon: <FaCalendarAlt /> },
-    {
-      text: "Appointments",
-      icon: <FaSquarePlus />,
-    },
-    {
-      text: "Statistics",
-      icon: <FaArrowTrendUp />,
-    },
-  ];
-
-  const toolsOptions = [
-    {
-      text: "Chat",
-      icon: <AiOutlineMessage />,
-    },
-    {
-      text: "Support",
-      icon: <IoCall />,
-    },
-  ];
-
-  const others = [
-    {
-      text: "Setting",
-      icon: <IoIosSettings />,
-    },
-  ];
   return (
     <div>
       <h1>
